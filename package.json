@@ -1,0 +1,24 @@
+{
+  "name": "boomerang-messaging-qa-test",
+  "version": "1.0.0",
+  "description": "boomerang-messaging-qa-test",
+  "main": "",
+  "scripts": {
+    "cypress:open": "CYPRESS_MAILSLURP_API_KEY=241d568329dab41766ce4aa66036e362e3b2c0d542bd80b29c354753e85f80bc cypress open",
+    "cypress:run": "CYPRESS_MAILSLURP_API_KEY=241d568329dab41766ce4aa66036e362e3b2c0d542bd80b29c354753e85f80bc cypress run --browser chrome --headed",
+    "cypress:run:headless": "CYPRESS_MAILSLURP_API_KEY=241d568329dab41766ce4aa66036e362e3b2c0d542bd80b29c354753e85f80bc cypress run"
+  },
+  "keywords": [
+    "qa-test",
+    "technical-test"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.6.0",
+    "cypress-mailslurp": "^1.6.0"
+  },
+  "dependencies": {
+    "mailslurp-client": "^15.16.3"
+  }
+}
